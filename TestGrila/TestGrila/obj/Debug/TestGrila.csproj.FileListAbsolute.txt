@@ -8,3 +8,13 @@ E:\Pestesan Radu IX A\A_VisualStudio\TestGrila\TestGrila\bin\Debug\TestGrila.exe
 E:\Pestesan Radu IX A\A_VisualStudio\TestGrila\TestGrila\bin\Debug\TestGrila.pdb
 E:\Pestesan Radu IX A\A_VisualStudio\TestGrila\TestGrila\obj\Debug\TestGrila.exe
 E:\Pestesan Radu IX A\A_VisualStudio\TestGrila\TestGrila\obj\Debug\TestGrila.pdb
+C:\Users\Radu\Desktop\TestGrila\TestGrila\bin\Debug\TestGrila.exe.config
+C:\Users\Radu\Desktop\TestGrila\TestGrila\bin\Debug\TestGrila.exe
+C:\Users\Radu\Desktop\TestGrila\TestGrila\bin\Debug\TestGrila.pdb
+C:\Users\Radu\Desktop\TestGrila\TestGrila\obj\Debug\TestGrila.csprojAssemblyReference.cache
+C:\Users\Radu\Desktop\TestGrila\TestGrila\obj\Debug\TestGrila.Form1.resources
+C:\Users\Radu\Desktop\TestGrila\TestGrila\obj\Debug\TestGrila.Properties.Resources.resources
+C:\Users\Radu\Desktop\TestGrila\TestGrila\obj\Debug\TestGrila.csproj.GenerateResource.cache
+C:\Users\Radu\Desktop\TestGrila\TestGrila\obj\Debug\TestGrila.csproj.CoreCompileInputs.cache
+C:\Users\Radu\Desktop\TestGrila\TestGrila\obj\Debug\TestGrila.exe
+C:\Users\Radu\Desktop\TestGrila\TestGrila\obj\Debug\TestGrila.pdb
