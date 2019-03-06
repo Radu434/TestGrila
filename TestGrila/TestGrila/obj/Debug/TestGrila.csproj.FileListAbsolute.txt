@@ -1,1 +1,10 @@
 E:\Radu9A\TestGrila\TestGrila\bin\Debug\TestGrila.exe.config
+E:\Pestesan Radu IX A\A_VisualStudio\TestGrila\TestGrila\bin\Debug\TestGrila.exe.config
+E:\Pestesan Radu IX A\A_VisualStudio\TestGrila\TestGrila\obj\Debug\TestGrila.csprojResolveAssemblyReference.cache
+E:\Pestesan Radu IX A\A_VisualStudio\TestGrila\TestGrila\obj\Debug\TestGrila.Form1.resources
+E:\Pestesan Radu IX A\A_VisualStudio\TestGrila\TestGrila\obj\Debug\TestGrila.Properties.Resources.resources
+E:\Pestesan Radu IX A\A_VisualStudio\TestGrila\TestGrila\obj\Debug\TestGrila.csproj.GenerateResource.Cache
+E:\Pestesan Radu IX A\A_VisualStudio\TestGrila\TestGrila\bin\Debug\TestGrila.exe
+E:\Pestesan Radu IX A\A_VisualStudio\TestGrila\TestGrila\bin\Debug\TestGrila.pdb
+E:\Pestesan Radu IX A\A_VisualStudio\TestGrila\TestGrila\obj\Debug\TestGrila.exe
+E:\Pestesan Radu IX A\A_VisualStudio\TestGrila\TestGrila\obj\Debug\TestGrila.pdb

@@ -20,15 +20,29 @@ namespace TestGrila
         {
             InitializeComponent();
         }
-
-        private void txtIntrebare_Click(object sender, EventArgs e)
-        {
-
-        }
+        public int nrI = 0;
+        public int corecte = 0;
+        int nr = 1;
+       
 
         private void btnTestNou_Click(object sender, EventArgs e)
         {
             
-       
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void listBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnInainte_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

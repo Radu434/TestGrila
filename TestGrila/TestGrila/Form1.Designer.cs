@@ -28,93 +28,47 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.txtIntrebare = new System.Windows.Forms.Label();
-            this.lblRasp3 = new System.Windows.Forms.Label();
-            this.lblRasp2 = new System.Windows.Forms.Label();
-            this.lblRasp1 = new System.Windows.Forms.Label();
             this.gbRasp = new System.Windows.Forms.GroupBox();
-            this.rbRasp2 = new System.Windows.Forms.RadioButton();
             this.rbRasp3 = new System.Windows.Forms.RadioButton();
             this.rbRasp1 = new System.Windows.Forms.RadioButton();
+            this.rbRasp2 = new System.Windows.Forms.RadioButton();
             this.btnInainte = new System.Windows.Forms.Button();
             this.btnVerificare = new System.Windows.Forms.Button();
-            this.btnReset = new System.Windows.Forms.Button();
             this.btnTestNou = new System.Windows.Forms.Button();
+            this.btnInapoi = new System.Windows.Forms.Button();
+            this.lblIntrebare = new System.Windows.Forms.Label();
+            this.lblNr = new System.Windows.Forms.Label();
+            this.cbLectie = new System.Windows.Forms.ComboBox();
+            this.gbOptiuni = new System.Windows.Forms.GroupBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.btnConfirma = new System.Windows.Forms.Button();
+            this.numConfirma = new System.Windows.Forms.NumericUpDown();
+            this.lstIntrebare = new System.Windows.Forms.ListBox();
+            this.lstRaspuns = new System.Windows.Forms.ListBox();
+            this.lstA = new System.Windows.Forms.ListBox();
+            this.lstB = new System.Windows.Forms.ListBox();
+            this.lstC = new System.Windows.Forms.ListBox();
+            this.lstCorect = new System.Windows.Forms.ListBox();
             this.gbRasp.SuspendLayout();
+            this.gbOptiuni.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numConfirma)).BeginInit();
             this.SuspendLayout();
-            // 
-            // txtIntrebare
-            // 
-            this.txtIntrebare.AutoSize = true;
-            this.txtIntrebare.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.txtIntrebare.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.txtIntrebare.Location = new System.Drawing.Point(329, 121);
-            this.txtIntrebare.Name = "txtIntrebare";
-            this.txtIntrebare.Size = new System.Drawing.Size(86, 31);
-            this.txtIntrebare.TabIndex = 0;
-            this.txtIntrebare.Text = "label1";
-            this.txtIntrebare.Click += new System.EventHandler(this.txtIntrebare_Click);
-            // 
-            // lblRasp3
-            // 
-            this.lblRasp3.AutoSize = true;
-            this.lblRasp3.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.lblRasp3.Location = new System.Drawing.Point(335, 47);
-            this.lblRasp3.Name = "lblRasp3";
-            this.lblRasp3.Size = new System.Drawing.Size(35, 13);
-            this.lblRasp3.TabIndex = 1;
-            this.lblRasp3.Text = "label1";
-            // 
-            // lblRasp2
-            // 
-            this.lblRasp2.AutoSize = true;
-            this.lblRasp2.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.lblRasp2.Location = new System.Drawing.Point(186, 47);
-            this.lblRasp2.Name = "lblRasp2";
-            this.lblRasp2.Size = new System.Drawing.Size(35, 13);
-            this.lblRasp2.TabIndex = 2;
-            this.lblRasp2.Text = "label1";
-            // 
-            // lblRasp1
-            // 
-            this.lblRasp1.AutoSize = true;
-            this.lblRasp1.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.lblRasp1.Location = new System.Drawing.Point(32, 47);
-            this.lblRasp1.Name = "lblRasp1";
-            this.lblRasp1.Size = new System.Drawing.Size(35, 13);
-            this.lblRasp1.TabIndex = 3;
-            this.lblRasp1.Text = "label1";
             // 
             // gbRasp
             // 
             this.gbRasp.Controls.Add(this.rbRasp3);
-            this.gbRasp.Controls.Add(this.lblRasp3);
-            this.gbRasp.Controls.Add(this.lblRasp2);
-            this.gbRasp.Controls.Add(this.lblRasp1);
             this.gbRasp.Controls.Add(this.rbRasp1);
             this.gbRasp.Controls.Add(this.rbRasp2);
-            this.gbRasp.Location = new System.Drawing.Point(167, 283);
+            this.gbRasp.Location = new System.Drawing.Point(52, 96);
             this.gbRasp.Name = "gbRasp";
-            this.gbRasp.Size = new System.Drawing.Size(419, 60);
+            this.gbRasp.Size = new System.Drawing.Size(275, 60);
             this.gbRasp.TabIndex = 4;
             this.gbRasp.TabStop = false;
-            this.gbRasp.Text = "groupBox1";
-            // 
-            // rbRasp2
-            // 
-            this.rbRasp2.AutoSize = true;
-            this.rbRasp2.Location = new System.Drawing.Point(160, 19);
-            this.rbRasp2.Name = "rbRasp2";
-            this.rbRasp2.Size = new System.Drawing.Size(32, 17);
-            this.rbRasp2.TabIndex = 5;
-            this.rbRasp2.TabStop = true;
-            this.rbRasp2.Text = "B";
-            this.rbRasp2.UseVisualStyleBackColor = true;
             // 
             // rbRasp3
             // 
             this.rbRasp3.AutoSize = true;
-            this.rbRasp3.Location = new System.Drawing.Point(306, 19);
+            this.rbRasp3.Location = new System.Drawing.Point(214, 19);
             this.rbRasp3.Name = "rbRasp3";
             this.rbRasp3.Size = new System.Drawing.Size(32, 17);
             this.rbRasp3.TabIndex = 6;
@@ -125,7 +79,7 @@
             // rbRasp1
             // 
             this.rbRasp1.AutoSize = true;
-            this.rbRasp1.Location = new System.Drawing.Point(6, 19);
+            this.rbRasp1.Location = new System.Drawing.Point(19, 19);
             this.rbRasp1.Name = "rbRasp1";
             this.rbRasp1.Size = new System.Drawing.Size(32, 17);
             this.rbRasp1.TabIndex = 7;
@@ -133,77 +87,240 @@
             this.rbRasp1.Text = "A";
             this.rbRasp1.UseVisualStyleBackColor = true;
             // 
+            // rbRasp2
+            // 
+            this.rbRasp2.AutoSize = true;
+            this.rbRasp2.Location = new System.Drawing.Point(123, 19);
+            this.rbRasp2.Name = "rbRasp2";
+            this.rbRasp2.Size = new System.Drawing.Size(32, 17);
+            this.rbRasp2.TabIndex = 5;
+            this.rbRasp2.TabStop = true;
+            this.rbRasp2.Text = "B";
+            this.rbRasp2.UseVisualStyleBackColor = true;
+            // 
             // btnInainte
             // 
-            this.btnInainte.Location = new System.Drawing.Point(390, 448);
+            this.btnInainte.Location = new System.Drawing.Point(191, 187);
             this.btnInainte.Name = "btnInainte";
-            this.btnInainte.Size = new System.Drawing.Size(126, 47);
+            this.btnInainte.Size = new System.Drawing.Size(135, 47);
             this.btnInainte.TabIndex = 5;
             this.btnInainte.Text = "Inainte";
             this.btnInainte.UseVisualStyleBackColor = true;
+            this.btnInainte.Click += new System.EventHandler(this.btnInainte_Click);
             // 
             // btnVerificare
             // 
-            this.btnVerificare.Location = new System.Drawing.Point(250, 448);
+            this.btnVerificare.Location = new System.Drawing.Point(191, 240);
             this.btnVerificare.Name = "btnVerificare";
             this.btnVerificare.Size = new System.Drawing.Size(134, 47);
             this.btnVerificare.TabIndex = 6;
             this.btnVerificare.Text = "Verificare";
             this.btnVerificare.UseVisualStyleBackColor = true;
             // 
-            // btnReset
-            // 
-            this.btnReset.Location = new System.Drawing.Point(110, 448);
-            this.btnReset.Name = "btnReset";
-            this.btnReset.Size = new System.Drawing.Size(134, 47);
-            this.btnReset.TabIndex = 7;
-            this.btnReset.Text = "Reset";
-            this.btnReset.UseVisualStyleBackColor = true;
-            // 
             // btnTestNou
             // 
-            this.btnTestNou.Location = new System.Drawing.Point(522, 448);
+            this.btnTestNou.Location = new System.Drawing.Point(51, 240);
             this.btnTestNou.Name = "btnTestNou";
-            this.btnTestNou.Size = new System.Drawing.Size(126, 47);
+            this.btnTestNou.Size = new System.Drawing.Size(135, 47);
             this.btnTestNou.TabIndex = 8;
             this.btnTestNou.Text = "Test Nou";
             this.btnTestNou.UseVisualStyleBackColor = true;
             this.btnTestNou.Click += new System.EventHandler(this.btnTestNou_Click);
             // 
+            // btnInapoi
+            // 
+            this.btnInapoi.Location = new System.Drawing.Point(51, 187);
+            this.btnInapoi.Name = "btnInapoi";
+            this.btnInapoi.Size = new System.Drawing.Size(134, 47);
+            this.btnInapoi.TabIndex = 9;
+            this.btnInapoi.Text = "Inapoi";
+            this.btnInapoi.UseVisualStyleBackColor = true;
+            // 
+            // lblIntrebare
+            // 
+            this.lblIntrebare.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.lblIntrebare.Location = new System.Drawing.Point(52, 22);
+            this.lblIntrebare.Name = "lblIntrebare";
+            this.lblIntrebare.Size = new System.Drawing.Size(275, 54);
+            this.lblIntrebare.TabIndex = 10;
+            this.lblIntrebare.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblNr
+            // 
+            this.lblNr.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblNr.Location = new System.Drawing.Point(9, 33);
+            this.lblNr.Name = "lblNr";
+            this.lblNr.Size = new System.Drawing.Size(37, 32);
+            this.lblNr.TabIndex = 11;
+            this.lblNr.Text = "1";
+            this.lblNr.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // cbLectie
+            // 
+            this.cbLectie.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.cbLectie.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.cbLectie.FormattingEnabled = true;
+            this.cbLectie.Location = new System.Drawing.Point(362, 22);
+            this.cbLectie.Name = "cbLectie";
+            this.cbLectie.Size = new System.Drawing.Size(200, 21);
+            this.cbLectie.TabIndex = 12;
+            // 
+            // gbOptiuni
+            // 
+            this.gbOptiuni.Controls.Add(this.label2);
+            this.gbOptiuni.Controls.Add(this.btnConfirma);
+            this.gbOptiuni.Controls.Add(this.numConfirma);
+            this.gbOptiuni.Location = new System.Drawing.Point(362, 96);
+            this.gbOptiuni.Name = "gbOptiuni";
+            this.gbOptiuni.Size = new System.Drawing.Size(200, 138);
+            this.gbOptiuni.TabIndex = 13;
+            this.gbOptiuni.TabStop = false;
+            this.gbOptiuni.Text = "groupBox1";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label2.Location = new System.Drawing.Point(7, 47);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(188, 13);
+            this.label2.TabIndex = 14;
+            this.label2.Text = "Cate intrebari sa contina testul?";
+            // 
+            // btnConfirma
+            // 
+            this.btnConfirma.Location = new System.Drawing.Point(137, 89);
+            this.btnConfirma.Name = "btnConfirma";
+            this.btnConfirma.Size = new System.Drawing.Size(57, 22);
+            this.btnConfirma.TabIndex = 1;
+            this.btnConfirma.Text = "Confirma";
+            this.btnConfirma.UseVisualStyleBackColor = true;
+            // 
+            // numConfirma
+            // 
+            this.numConfirma.Location = new System.Drawing.Point(11, 91);
+            this.numConfirma.Maximum = new decimal(new int[] {
+            10,
+            0,
+            0,
+            0});
+            this.numConfirma.Minimum = new decimal(new int[] {
+            3,
+            0,
+            0,
+            0});
+            this.numConfirma.Name = "numConfirma";
+            this.numConfirma.Size = new System.Drawing.Size(120, 20);
+            this.numConfirma.TabIndex = 0;
+            this.numConfirma.Value = new decimal(new int[] {
+            3,
+            0,
+            0,
+            0});
+            // 
+            // lstIntrebare
+            // 
+            this.lstIntrebare.FormattingEnabled = true;
+            this.lstIntrebare.Location = new System.Drawing.Point(52, 417);
+            this.lstIntrebare.Name = "lstIntrebare";
+            this.lstIntrebare.Size = new System.Drawing.Size(95, 160);
+            this.lstIntrebare.TabIndex = 14;
+            this.lstIntrebare.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
+            // 
+            // lstRaspuns
+            // 
+            this.lstRaspuns.FormattingEnabled = true;
+            this.lstRaspuns.Location = new System.Drawing.Point(153, 417);
+            this.lstRaspuns.Name = "lstRaspuns";
+            this.lstRaspuns.Size = new System.Drawing.Size(95, 160);
+            this.lstRaspuns.TabIndex = 15;
+            this.lstRaspuns.SelectedIndexChanged += new System.EventHandler(this.listBox2_SelectedIndexChanged);
+            // 
+            // lstA
+            // 
+            this.lstA.FormattingEnabled = true;
+            this.lstA.Location = new System.Drawing.Point(254, 417);
+            this.lstA.Name = "lstA";
+            this.lstA.Size = new System.Drawing.Size(95, 160);
+            this.lstA.TabIndex = 16;
+            // 
+            // lstB
+            // 
+            this.lstB.FormattingEnabled = true;
+            this.lstB.Location = new System.Drawing.Point(355, 417);
+            this.lstB.Name = "lstB";
+            this.lstB.Size = new System.Drawing.Size(95, 160);
+            this.lstB.TabIndex = 17;
+            // 
+            // lstC
+            // 
+            this.lstC.FormattingEnabled = true;
+            this.lstC.Location = new System.Drawing.Point(456, 417);
+            this.lstC.Name = "lstC";
+            this.lstC.Size = new System.Drawing.Size(95, 160);
+            this.lstC.TabIndex = 18;
+            // 
+            // lstCorect
+            // 
+            this.lstCorect.FormattingEnabled = true;
+            this.lstCorect.Location = new System.Drawing.Point(557, 417);
+            this.lstCorect.Name = "lstCorect";
+            this.lstCorect.Size = new System.Drawing.Size(95, 160);
+            this.lstCorect.TabIndex = 19;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(749, 567);
+            this.ClientSize = new System.Drawing.Size(711, 589);
+            this.Controls.Add(this.lstCorect);
+            this.Controls.Add(this.lstC);
+            this.Controls.Add(this.lstB);
+            this.Controls.Add(this.lstA);
+            this.Controls.Add(this.lstRaspuns);
+            this.Controls.Add(this.lstIntrebare);
+            this.Controls.Add(this.gbOptiuni);
+            this.Controls.Add(this.cbLectie);
+            this.Controls.Add(this.lblNr);
+            this.Controls.Add(this.lblIntrebare);
+            this.Controls.Add(this.btnInapoi);
             this.Controls.Add(this.btnTestNou);
-            this.Controls.Add(this.btnReset);
             this.Controls.Add(this.btnVerificare);
             this.Controls.Add(this.btnInainte);
             this.Controls.Add(this.gbRasp);
-            this.Controls.Add(this.txtIntrebare);
             this.Name = "Form1";
             this.Text = "Form1";
             this.gbRasp.ResumeLayout(false);
             this.gbRasp.PerformLayout();
+            this.gbOptiuni.ResumeLayout(false);
+            this.gbOptiuni.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numConfirma)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label txtIntrebare;
-        private System.Windows.Forms.Label lblRasp3;
-        private System.Windows.Forms.Label lblRasp2;
-        private System.Windows.Forms.Label lblRasp1;
         private System.Windows.Forms.GroupBox gbRasp;
         private System.Windows.Forms.RadioButton rbRasp3;
         private System.Windows.Forms.RadioButton rbRasp1;
         private System.Windows.Forms.RadioButton rbRasp2;
         private System.Windows.Forms.Button btnInainte;
         private System.Windows.Forms.Button btnVerificare;
-        private System.Windows.Forms.Button btnReset;
         private System.Windows.Forms.Button btnTestNou;
+        private System.Windows.Forms.Button btnInapoi;
+        private System.Windows.Forms.Label lblIntrebare;
+        private System.Windows.Forms.Label lblNr;
+        private System.Windows.Forms.ComboBox cbLectie;
+        private System.Windows.Forms.GroupBox gbOptiuni;
+        private System.Windows.Forms.Button btnConfirma;
+        private System.Windows.Forms.NumericUpDown numConfirma;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.ListBox lstIntrebare;
+        private System.Windows.Forms.ListBox lstRaspuns;
+        private System.Windows.Forms.ListBox lstA;
+        private System.Windows.Forms.ListBox lstB;
+        private System.Windows.Forms.ListBox lstC;
+        private System.Windows.Forms.ListBox lstCorect;
     }
 }
 
