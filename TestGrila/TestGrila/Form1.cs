@@ -19,12 +19,22 @@ namespace TestGrila
         public Form1()
         {
             InitializeComponent();
-           
+
         }
         public int nrI = 0;
         public int corecte = 0;
-        public int nr = 1;
-       
+        public int nr = 3;
+        private void incarcaTest()
+        {
+        OleDbConnection connect = new OleDbConnection("Provider = Microsoft.ACE.OLEDB.12.0; Data Source = soft.accdb");
+            connect.Open();
+
+        OleDbCommand command = new OleDbCommand();
+            command.Connection = connect;
+
+            command.CommandText = "select top" + nr +"*as";
+        
+            }
         private void incarcaI(int i)
         {
             lblIntrebare.Text = lstIntrebare.Items[i].ToString();
@@ -39,6 +49,7 @@ namespace TestGrila
         private void btnTestNou_Click(object sender, EventArgs e)
         {
             incarcaI(nrI);
+            lblNr.Text = nrI.ToString();
         }
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
